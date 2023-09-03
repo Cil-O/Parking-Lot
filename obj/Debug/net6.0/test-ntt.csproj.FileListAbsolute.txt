@@ -1,0 +1,15 @@
+/home/user/Documents/test-ntt/bin/Debug/net6.0/test-ntt
+/home/user/Documents/test-ntt/bin/Debug/net6.0/test-ntt.deps.json
+/home/user/Documents/test-ntt/bin/Debug/net6.0/test-ntt.runtimeconfig.json
+/home/user/Documents/test-ntt/bin/Debug/net6.0/test-ntt.dll
+/home/user/Documents/test-ntt/bin/Debug/net6.0/ref/test-ntt.dll
+/home/user/Documents/test-ntt/bin/Debug/net6.0/test-ntt.pdb
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.csproj.AssemblyReference.cache
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.AssemblyInfoInputs.cache
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.AssemblyInfo.cs
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.csproj.CoreCompileInputs.cache
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.dll
+/home/user/Documents/test-ntt/obj/Debug/net6.0/ref/test-ntt.dll
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.pdb
+/home/user/Documents/test-ntt/obj/Debug/net6.0/test-ntt.genruntimeconfig.cache
