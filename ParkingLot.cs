@@ -49,12 +49,22 @@ class ParkingLot
 
     public List<string> GetOddPlates()
     {
-        return occupiedPlates.Where(plate => IsPlateOdd(plate)).ToList();
+        return occupiedPlates
+        .Where(plate => IsPlateOdd(plate))
+        .Select(plate => string.Join(", ", parkedVehicles
+            .Where(kvp => kvp.Value.RegistrationNo.Equals(plate, StringComparison.OrdinalIgnoreCase))
+            .Select(kvp => kvp.Value.RegistrationNo)))
+        .ToList();
     }
 
     public List<string> GetEvenPlates()
     {
-        return occupiedPlates.Where(plate => !IsPlateOdd(plate)).ToList();
+        return occupiedPlates
+        .Where(plate => !IsPlateOdd(plate))
+        .Select(plate => string.Join(", ", parkedVehicles
+            .Where(kvp => kvp.Value.RegistrationNo.Equals(plate, StringComparison.OrdinalIgnoreCase))
+            .Select(kvp => kvp.Value.RegistrationNo)))
+        .ToList();
     }
 
     public List<string> GetMatchingColourPlates(string colour)
